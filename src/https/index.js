@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const login = async (email, password) => {
-  const { data } = await axios.post("https://res-zeta-one.vercel.app/api", {
+  const { data } = await axios.post("https://ress-eight.vercel.app/api", {
     email,
     password,
   });
